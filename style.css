@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Tahoma', sans-serif;
+    background: #0a0a0a;
+    color: #eee;
+    line-height: 1.6;
+}
+
+header {
+    background: #000;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00aaff;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+ul a {
+    color: #eee;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1616588587683-5c9b9c8f8b0e') center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.btn {
+    background: #00aaff;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    color: #00aaff;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.game-card {
+    background: #1a1a1a;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #000;
+}
